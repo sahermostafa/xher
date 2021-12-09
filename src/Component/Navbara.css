@@ -1,0 +1,26 @@
+.styleLink {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.styleLink:hover {
+  color: gray;
+}
+.socialMedia svg {
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+}
+.styleLink span {
+  width: 23px;
+  height: 23px;
+  background-color: red;
+  color: white;
+  border-radius: 42%;
+  padding: 3px;
+  margin-left: -1%;
+  margin-top: -1%;
+}
+  
